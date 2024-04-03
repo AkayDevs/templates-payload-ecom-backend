@@ -33,7 +33,6 @@ import AccountInfo from './components/AccountView'
 import { Home } from './globals/Home'
 
 const generateTitle: GenerateTitle = () => {
-  // Change it according to your Ecommerce name - Template modify
   return 'My Store'
 }
 

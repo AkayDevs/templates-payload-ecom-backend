@@ -1,11 +1,8 @@
 import React from 'react';
 
-import './index.scss';
-
 const CompanyLogo = () => {
   return (
-    // Change it according to your Ecommerce name - Template modify
-    <div className="animation-container">
+    <div>
       Logo
     </div>
   )
@@ -14,10 +11,9 @@ const CompanyLogo = () => {
 
 export const companyIcon = () => {
   return (
-    // Change it according to your Ecommerce name - Template modify
-      <div>
-        Icon
-      </div>
+    <div>
+      Company Icon
+    </div>
   )
 }
 

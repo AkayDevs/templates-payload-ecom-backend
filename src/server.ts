@@ -15,8 +15,7 @@ const start = async () => {
     secret: process.env.PAYLOAD_SECRET,
     express: app,
     onInit: async () => {
-      // Change it according to your Ecommerce name - Template modify
-      payload.logger.info(`Tempalte Admin URL: ${payload.getAdminURL()}`)
+      payload.logger.info(`Template Admin URL: ${payload.getAdminURL()}`)
     },
   })
 
